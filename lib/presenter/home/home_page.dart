@@ -18,12 +18,32 @@ class HomePage extends StatelessWidget {
           SizedBox(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
+            child: const Image(
+              image: AssetImage('../../images/image01.png'),
+              width: 628,
+              height: 628,
+              alignment: Alignment.centerRight,
+            ),
+          ),
+          SizedBox(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            child: const Image(
+              image: AssetImage('../../images/image2.png'),
+              width: 628,
+              height: 628,
+              alignment: Alignment.bottomLeft,
+            ),
+          ),
+          SizedBox(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
             // Stack irá fazer com que as imagens fiquem sobrepostas em ordem decrescente
             // por isso o botão está encima da última imagem (pq está ao final)
             child: Stack(
               children: [
                 const Padding(
-                  padding: EdgeInsets.only(top: 80, left: 37),
+                  padding: EdgeInsets.only(top: 80, left: 22),
                   child: SizedBox(
                     width: 340,
                     height: 170,
@@ -36,26 +56,6 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     // ],
-                  ),
-                ),
-                SizedBox(
-                  width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height,
-                  child: const Image(
-                    image: AssetImage('../../images/image01.png'),
-                    width: 628,
-                    height: 628,
-                    alignment: Alignment.centerRight,
-                  ),
-                ),
-                SizedBox(
-                  width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height,
-                  child: const Image(
-                    image: AssetImage('../../images/image2.png'),
-                    width: 628,
-                    height: 628,
-                    alignment: Alignment.bottomLeft,
                   ),
                 ),
                 Padding(

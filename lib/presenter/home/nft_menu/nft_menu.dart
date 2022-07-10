@@ -21,8 +21,8 @@ class _NftMenuState extends State<NftMenu> {
   Widget build(BuildContext context) {
     return Material(
       child: Container(
-        // width: double.infinity,
-        // height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
         color: Colors.black,
         child: Column(
           children: [
