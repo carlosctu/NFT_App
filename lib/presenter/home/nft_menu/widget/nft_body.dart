@@ -22,12 +22,12 @@ class NFT extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            width: 170,
+            width: 160,
             height: 185,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(25),
-              image: DecorationImage(
-                  image: AssetImage(image)),
+              image:
+                  DecorationImage(fit: BoxFit.fill, image: AssetImage(image)),
             ),
           ),
           const SizedBox(
@@ -40,7 +40,7 @@ class NFT extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                 Text(
+                Text(
                   title,
                   style: const TextStyle(
                     color: Colors.white,
@@ -53,10 +53,11 @@ class NFT extends StatelessWidget {
                   children: [
                     SizedBox(
                       child: Row(
-                        children:  [
+                        children: [
                           Text(
                             price,
-                            style: const TextStyle(color: Colors.white, fontSize: 14),
+                            style: const TextStyle(
+                                color: Colors.white, fontSize: 14),
                           ),
                           const Text(
                             'ETH',
@@ -70,7 +71,7 @@ class NFT extends StatelessWidget {
                     SizedBox(
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children:  [
+                        children: [
                           const Icon(
                             Icons.favorite,
                             color: Colors.purple,
@@ -79,7 +80,8 @@ class NFT extends StatelessWidget {
                           const SizedBox(width: 5),
                           Text(
                             hearts,
-                            style: const TextStyle(color: Colors.white, fontSize: 12),
+                            style: const TextStyle(
+                                color: Colors.white, fontSize: 12),
                           ),
                         ],
                       ),

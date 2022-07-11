@@ -9,7 +9,6 @@ import 'widget/nft_body.dart';
 class NftMenu extends StatefulWidget {
   const NftMenu({
     Key? key,
-
   }) : super(key: key);
 
   @override
@@ -171,10 +170,36 @@ class _NftMenuState extends State<NftMenu> {
                           spacing: 24,
                           runSpacing: 24,
                           children: const [
-                            NFT(image: '../../images/finger_left.png', price: '1.25',title: 'Hologram hand left',hearts: '92'),
-                            NFT(image: '../../images/finger.png', price: '0.8',title: 'Hologram hand right',hearts: '19'),
-                            NFT(image: '../../images/hand_free_flow.png', price: '2.4',title: 'Hologram hand free flow',hearts: '99'),
-                            NFT(image: '../../images/finger_crushed.png', price: '1.06',title: 'Hologram crushed sheet',hearts: '35'),
+                            NFT(
+                                image: '../../images/finger_left.png',
+                                price: '1.25',
+                                title: 'Hologram hand left',
+                                hearts: '92'),
+                            NFT(
+                                image: '../../images/finger.png',
+                                price: '0.8',
+                                title: 'Hologram hand right',
+                                hearts: '19'),
+                            NFT(
+                                image: '../../images/hand_free_flow.png',
+                                price: '2.4',
+                                title: 'Hologram hand free flow',
+                                hearts: '99'),
+                            NFT(
+                                image: '../../images/finger_crushed.png',
+                                price: '1.06',
+                                title: 'Hologram crushed sheet',
+                                hearts: '35'),
+                            NFT(
+                                image: '../../images/last_panda.jpg',
+                                price: '3.2',
+                                title: 'Floating Panda',
+                                hearts: '120'),
+                            NFT(
+                                image: '../../images/beginning_of_the_end.jpg',
+                                price: '0.86',
+                                title: 'Hologram crushed sheet',
+                                hearts: '44'),
                           ],
                         ),
                       ),
