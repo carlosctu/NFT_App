@@ -26,32 +26,32 @@ class NFTListView extends StatelessWidget {
                   spacing: 24,
                   runSpacing: 24,
                   children: const [
-                    NFTCardMenu(
+                    NFTCard(
                         image: fingerLeft,
                         price: '1.25',
                         title: 'Hologram hand left',
                         hearts: '92'),
-                    NFTCardMenu(
+                    NFTCard(
                         image: fingerRight,
                         price: '0.8',
                         title: 'Hologram hand right',
                         hearts: '19'),
-                    NFTCardMenu(
+                    NFTCard(
                         image: hologramHandFree,
                         price: '2.4',
                         title: 'Hologram hand free flow',
                         hearts: '99'),
-                    NFTCardMenu(
+                    NFTCard(
                         image: fingerCrushed,
                         price: '1.06',
                         title: 'Hologram crushed sheet',
                         hearts: '35'),
-                    NFTCardMenu(
+                    NFTCard(
                         image: lastPanda,
                         price: '3.2',
                         title: 'Floating Panda',
                         hearts: '120'),
-                    NFTCardMenu(
+                    NFTCard(
                         image: begOfEnd,
                         price: '0.86',
                         title: 'Hologram crushed sheet',

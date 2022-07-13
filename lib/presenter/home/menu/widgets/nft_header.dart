@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:nft_app/core/app_assets.dart';
 
-class NFTMenuHeader extends StatelessWidget {
-  const NFTMenuHeader({
+class NFTHeader extends StatelessWidget {
+  const NFTHeader({
     Key? key,
   }) : super(key: key);
 

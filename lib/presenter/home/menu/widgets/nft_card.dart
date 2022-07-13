@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class NFTCardMenu extends StatelessWidget {
-  const NFTCardMenu({
+class NFTCard extends StatelessWidget {
+  const NFTCard({
     Key? key,
     required this.title,
     required this.image,

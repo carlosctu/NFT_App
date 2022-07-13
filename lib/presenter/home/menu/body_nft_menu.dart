@@ -23,7 +23,7 @@ class _BodyNFTMenuState extends State<BodyNFTMenu> {
             color: Colors.black,
             child: Column(
               children: const [
-                NFTMenuHeader(),
+                NFTHeader(),
                 NFTListView(),
               ],
             ),
