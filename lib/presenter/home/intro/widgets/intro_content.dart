@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nft_app/presenter/home/intro/widgets/title_and_button_intro.dart';
-import 'image01_intro.dart';
-import 'image02_intro.dart';
+import 'right_image.dart';
+import 'left_image.dart';
 
 class IntroContent extends StatelessWidget {
   const IntroContent({
@@ -12,8 +12,8 @@ class IntroContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: const [
-        RightImageIntro(),
-        LeftImageIntro(),
+        RightImage(),
+        LeftImage(),
         TitleAndButtonIntro(),
       ],
     );

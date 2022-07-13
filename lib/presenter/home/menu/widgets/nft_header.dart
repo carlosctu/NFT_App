@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:nft_app/core/app_assets.dart';
 
 class NFTMenuHeader extends StatelessWidget {
   const NFTMenuHeader({
@@ -19,7 +20,7 @@ class NFTMenuHeader extends StatelessWidget {
             child: const Image(
               fit: BoxFit.cover,
               height: 10,
-              image: AssetImage('../../images/background_img.jpg'),
+              image: AssetImage(headerCoverPic),
             ),
           ),
         ),
@@ -68,7 +69,7 @@ class NFTMenuHeader extends StatelessWidget {
           height: 242,
           alignment: Alignment.center,
           child: const CircleAvatar(
-            backgroundImage: AssetImage('../../images/carlos.jpg'),
+            backgroundImage: AssetImage(profilePic),
             radius: 70,
           ),
         ),

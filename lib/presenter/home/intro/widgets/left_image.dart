@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:nft_app/core/app_assets.dart';
 
-class LeftImageIntro extends StatelessWidget {
-  const LeftImageIntro({
+class LeftImage extends StatelessWidget {
+  const LeftImage({
     Key? key,
   }) : super(key: key);
 
@@ -11,7 +12,7 @@ class LeftImageIntro extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
       child: const Image(
-        image: AssetImage('../../images/image2.png'),
+        image: AssetImage(leftImage),
         width: 628,
         height: 628,
         alignment: Alignment.bottomLeft,
