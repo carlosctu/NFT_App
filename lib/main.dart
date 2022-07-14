@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'presenter/home/intro/body_intro_page.dart';
 
 void main() {

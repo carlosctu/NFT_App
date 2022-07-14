@@ -59,7 +59,10 @@ class NFTHeader extends StatelessWidget {
               radius: 76,
               child: ClipRect(
                 child: BackdropFilter(
-                  filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                  filter: ImageFilter.blur(
+                    sigmaX: 10,
+                    sigmaY: 10,
+                  ),
                 ),
               ),
             ),

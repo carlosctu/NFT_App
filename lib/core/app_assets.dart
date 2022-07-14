@@ -1,3 +1,4 @@
+// Images
 // Intro
 const String rightImage = 'assets/images/image01.png';
 const String leftImage = 'assets/images/Image2.png';

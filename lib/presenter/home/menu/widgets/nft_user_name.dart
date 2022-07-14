@@ -15,11 +15,12 @@ class NFTMenuUserName extends StatelessWidget {
             Text(
               'Carlos Casanova',
               style: TextStyle(
+                fontFamily: 'Montserrat',
                 color: Colors.white,
                 wordSpacing: 3,
                 fontSize: 20,
               ),
-            )
+            ),
           ],
         ),
         const SizedBox(height: 10),
@@ -28,21 +29,37 @@ class NFTMenuUserName extends StatelessWidget {
           children: const [
             Text(
               '4.5',
-              style:
-                  TextStyle(color: Colors.white, wordSpacing: 6, fontSize: 16),
+              style: TextStyle(
+                color: Colors.white,
+                wordSpacing: 6,
+                fontSize: 16,
+                fontFamily: 'Montserrat',
+              ),
             ),
             SizedBox(width: 5),
-            Icon(Icons.star, color: Colors.amber, size: 14),
+            Icon(
+              Icons.star,
+              color: Colors.amber,
+              size: 14,
+            ),
             SizedBox(width: 8),
             Text(
               '|  92',
-              style:
-                  TextStyle(color: Colors.white, wordSpacing: 6, fontSize: 16),
+              style: TextStyle(
+                color: Colors.white,
+                wordSpacing: 6,
+                fontSize: 16,
+                fontFamily: 'Montserrat',
+              ),
             ),
             SizedBox(
               width: 5,
             ),
-            Icon(Icons.favorite, color: Colors.purple, size: 14),
+            Icon(
+              Icons.favorite,
+              color: Colors.purple,
+              size: 14,
+            ),
           ],
         ),
       ],

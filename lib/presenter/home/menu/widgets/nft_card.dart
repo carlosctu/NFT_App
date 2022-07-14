@@ -15,19 +15,24 @@ class NFTCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 185,
+      width: 204,
       height: 298,
-      color: const Color.fromARGB(255, 42, 45, 58),
+      decoration: BoxDecoration(
+        color: const Color.fromARGB(220, 42, 45, 58),
+        borderRadius: BorderRadius.circular(30),
+      ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            width: 160,
+            width: 170,
             height: 185,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(25),
-              image:
-                  DecorationImage(fit: BoxFit.fill, image: AssetImage(image)),
+              image: DecorationImage(
+                fit: BoxFit.fill,
+                image: AssetImage(image),
+              ),
             ),
           ),
           const SizedBox(
@@ -35,7 +40,7 @@ class NFTCard extends StatelessWidget {
           ),
           SizedBox(
             height: 70,
-            width: 140,
+            width: 150,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,6 +50,7 @@ class NFTCard extends StatelessWidget {
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 15,
+                    fontFamily: 'Montserrat',
                   ),
                 ),
                 Row(
@@ -57,13 +63,19 @@ class NFTCard extends StatelessWidget {
                           Text(
                             price,
                             style: const TextStyle(
-                                color: Colors.white, fontSize: 14),
+                              color: Colors.white,
+                              fontSize: 14,
+                              fontFamily: 'Montserrat',
+                            ),
                           ),
                           const Text(
                             'ETH',
                             textAlign: TextAlign.start,
-                            style:
-                                TextStyle(color: Colors.white, fontSize: 10.5),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 10.5,
+                              fontFamily: 'Montserrat',
+                            ),
                           ),
                         ],
                       ),
@@ -81,7 +93,10 @@ class NFTCard extends StatelessWidget {
                           Text(
                             hearts,
                             style: const TextStyle(
-                                color: Colors.white, fontSize: 12),
+                              color: Colors.white,
+                              fontSize: 12.5,
+                              fontFamily: 'Montserrat',
+                            ),
                           ),
                         ],
                       ),

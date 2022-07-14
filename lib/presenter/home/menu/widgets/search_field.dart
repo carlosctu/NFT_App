@@ -12,7 +12,7 @@ class NFTSearchField extends StatelessWidget {
       child: const TextField(
         decoration: InputDecoration(
           filled: true,
-          fillColor: Color.fromARGB(255, 42, 45, 58),
+          fillColor: Color.fromARGB(220, 42, 45, 58),
           icon: Icon(
             Icons.search,
             color: Colors.white,
@@ -23,7 +23,10 @@ class NFTSearchField extends StatelessWidget {
           labelText: 'Search',
           labelStyle: TextStyle(color: Colors.white),
         ),
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(
+          color: Colors.white,
+          fontFamily: 'Montserrat',
+        ),
       ),
     );
   }
